@@ -64,7 +64,10 @@ class Game{
                          
                      }
                     
-                     
+                     fill("white")
+                     textSize(20)
+                     text("player1 Score:" + score1 , 50,50)
+                     text("player2 Score:" + score2 , 50,80)
                  
                  }
                 
